@@ -1,0 +1,164 @@
+* {
+  width: 900px;
+  margin: auto;
+  font-family: Times New Roman, Times, serif;
+  font-size: 18px;
+}
+
+body {
+  background-color: rgb(226 236 255);
+  position: absolute;
+  top: 20px;
+  /* width: 900px; */
+}
+
+.hero {
+  position: relative;
+  max-height: 506px;
+}
+
+.feature {
+  max-width: 900px;
+  position: relative;
+  padding: 0px;
+}
+
+.container {
+  background-color: rgba(199, 199, 199, 0.65);
+  position: absolute;
+  bottom: 50px;
+  left: 50px;
+  max-width: 430px;
+  max-height: 140px;
+  box-decoration-break: none;
+  z-index: 1;
+}
+
+h1 {
+  font-size: 60px;
+  margin: 0px;
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+div.summer-lakes {
+  font-size: 20px;
+  font-weight: 600;
+  /* position: relative; */
+  top: 6px;
+  margin-left: 20px;
+  padding-bottom: 20px;
+}
+
+.body-text {
+  /* /* display: flex; */
+  /* flex-flow: wrap;
+  flex: 1; */
+  background-color: white;
+  font-size: 12px;
+  /* width: 900px; */
+  height: fit-content;
+  /* padding-right: 30px; */
+  word-wrap: break-word;
+  /* z-index: 2; */
+}
+
+p {
+  width: 80%;
+  padding-top: 10px;
+  font-size: 12px;
+  text-align: left;
+}
+
+/* figure {
+  position: relative;
+  width: 0px;
+  display: inline;
+} */
+
+article {
+  width: 80%;
+}
+
+#scafell-img {
+  position: relative;
+  float: right;
+  max-width: 300px;
+  padding-top: 15px;
+  padding-right: 40px;
+  padding-left: 15px;
+}
+
+.caption {
+  width: 33%;
+  display: block;
+  /* flex-flow: column wrap;
+  flex: 1; */
+  font-size: 14px;
+  padding-bottom: 20px;
+  margin-left: 470px;
+}
+
+.evenly-spaced {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  /* display: flex;
+  flex: 1; */
+  /* justify-content: space-around; */
+  width: 80%;
+  margin-right: 0px;
+  margin-bottom: 20px;
+  margin-left: 0px;
+}
+
+nav ul {
+  width: 80%;
+  margin-left: 50px;
+  margin-right: 50px;
+  list-style: none;
+  display: flex;
+  /* flex-wrap: nowrap; */
+}
+
+nav li {
+  justify-content: space-between;
+}
+
+nav a {
+  /* flex: auto; */
+  display: inline;
+  text-decoration: none;
+  list-style: none;
+  background-color: #4e8098;
+  color: white;
+  border-radius: 3px;
+  padding-top: 5px;
+  padding-right: 10px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  font-size: 12px;
+}
+
+/* .bottom-space {
+  padding-bottom: 20px;
+} */
+
+hr {
+  color: grey;
+}
+
+footer {
+  width: 80%;
+  padding-top: 10px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+.copyright {
+  background-color: white;
+  color: black;
+  font-size: 14px;
+  /* margin: auto; */
+  margin-bottom: 30px;
+}
